@@ -1,0 +1,49 @@
+main#home-page {
+  position: fixed;
+  bottom: 0;
+  top:0;
+}
+
+main#home-page form {
+  position: relative;
+  margin: 0 auto;
+  width: 320px;
+  text-align: center;
+  top: 35%;
+}
+
+main#home-page form .form-fields {
+  display: flex;
+  align-items: center;
+  border-radius: 10rem;
+
+  -webkit-box-shadow: 0px 0px 37px -14px var(--primary);
+  -moz-box-shadow: 0px 0px 37px -14px var(--primary);
+  box-shadow: 0px 0px 37px -14px var(--primary);
+}
+
+main#home-page form input,
+main#home-page form button {
+  height: 2.75rem;
+  border-radius: 10rem;
+  border: 0;
+}
+
+main#home-page form input {
+  width: 100%;
+  padding: 0 1rem;
+}
+
+main#home-page form input::placeholder {
+  color: lightgray;
+}
+
+main#home-page form button {
+  right:0;
+  position: absolute;
+  padding: 0 1.5rem;
+  background-color: var(--primary);
+  color: white;
+  cursor: pointer;
+  border: 2px solid white;
+}
